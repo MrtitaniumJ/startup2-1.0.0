@@ -128,7 +128,9 @@ h6,
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    color: #FFFFFF;
+    background: linear-gradient(to right, #00e5ff, #1200ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     font-size: 18px;
     font-weight: 600;
     outline: none;
@@ -156,6 +158,12 @@ h6,
 .navbar-dark .navbar-toggler {
     color: var(--primary) !important;
     border-color: var(--primary) !important;
+}
+
+.navbar-collapse .btn .fa-search {
+    background: linear-gradient(to right, #00e5ff, #1200ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 991.98px) {
