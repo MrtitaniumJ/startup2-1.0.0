@@ -6,6 +6,14 @@ legend{
     padding: 2px;
 }
 
+.btn-join-our-team{
+    color: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 50px inset;
+    background: linear-gradient(to right, rgb(0 229 255), rgb(61 47 252));
+    border-radius: 56px;
+    padding-right: 8px;
+    border-right-color: #1500ff;
+}
 :root {
     --primary: #00e5ff;
     --secondary: #1200ff;
@@ -154,9 +162,10 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    background: linear-gradient(to right, #ff0a6c, #2d27ff);
+        background: linear-gradient(to right, #ff0a6c, #2d27ff);
+        color: white;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        /* -webkit-text-fill-color: transparent;*/
 }
 
 .navbar-dark .navbar-brand h1 {
