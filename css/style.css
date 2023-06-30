@@ -92,6 +92,15 @@ h6,
     transition: .5s;
 }
 
+.btn-join-our-team {
+    color: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 50px inset;
+    background: linear-gradient(to right, #00e5ff, #1200ff);
+    border-radius: 56px;
+    padding-right: 8px;
+    border-right-color: #1500ff;
+}
+
 .btn-primary,
 .btn-secondary {
     color: #FFFFFF;
