@@ -186,7 +186,7 @@ h6,
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
-        background: #FFFFFF;
+        background: #EEF9FF;
     }
 
     .navbar-dark .navbar-nav .nav-link,
@@ -217,7 +217,7 @@ h6,
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: #FFFFFF;
+        background: #EEF9FF;
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
@@ -227,7 +227,7 @@ h6,
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: var(--primary);
+        background: linear-gradient(to right, #00e5ff, #1200ff);
         transition: .5s;
     }
 
@@ -242,7 +242,10 @@ h6,
     }
 
     .sticky-top.navbar-dark .navbar-brand h1 {
-        color: var(--primary);
+        background: linear-gradient(to right, #1200ff, #ff0a6c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2.3rem;
     }
 }
 
@@ -625,7 +628,7 @@ h6,
 
 .testimonial-carousel .owl-dot.active {
     width: 30px;
-    background: var(--primary);
+    background: linear-gradient(to right, #00e5ff, #1200ff);;
 }
 
 .testimonial-carousel .owl-item.center {
@@ -671,6 +674,116 @@ h6,
     color: white;
 }
 /* back to top */
+
+/* join our team form */
+/* Modal styles */
+.modal-header {
+    background: linear-gradient(#00e5ff, #1200ff);
+    color: white;
+  }
+  
+  .modal-title {
+    color: white;
+  }
+  
+  .modal-body {
+    padding: 20px;
+    background-color: #EEF9FF;
+  }
+
+  .modal-body h4 {
+    background: linear-gradient(to right, #00e5ff, #1200ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
+  }
+  
+  .modal-footer {
+    border-top: none;
+  }
+  
+  /* Form styles */
+  form {
+    margin-bottom: 0;
+  }
+  
+  fieldset {
+    margin-bottom: 2px;
+  }
+  
+  legend {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 1px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, #ff0a6c, #2d27ff) 1;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .btn-close {
+    color: #1200ff;
+    opacity: 0.5;
+  }
+  
+  .btn-close:hover {
+    color: #1200ff;
+    opacity: 1;
+  }
+  
+  /* Radio and checkbox styles */
+  .radio,
+  .checkbox {
+    margin-top: 10px;
+  }
+
+  .custom .custom-cs {
+    border: 1px solid;
+    border-image: linear-gradient(to right, #ff0a6c, #2d27ff) 1;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /* Custom value input for radio and checkbox */
+  /* input[type="text"][name$=".other_option_response"] {
+    margin-top: 5px;
+    color: #ff0a6c;
+  } */
+  
+  /* Submit button styles */
+  .btn-submit {
+    background-color: #ff0a6c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btn-submit:hover {
+    background-color: #2d27ff;
+  }
+
+  .modal-body .btn-primary {
+    background: linear-gradient(to right, #00e5ff, #1200ff);
+  }
+
+  .modal-body .btn-primary:hover {
+    background: linear-gradient(to left, #00e5ff, #1200ff);
+    color: white;
+  }
+  
+  
+  
+  /* join our team form end */
 
 /*** Miscellaneous ***/
 @media (min-width: 991.98px) {
