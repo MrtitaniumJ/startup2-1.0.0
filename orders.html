@@ -37,6 +37,10 @@
         <div class="spinner"></div>
     </div>
     <!-- Spinner End -->
+    
+    <!-- Sidebar start -->
+    
+    <!-- Sidebar End -->
 
     <!-- Order Section Start -->
     <section class="h-100 gradient-custom">
@@ -244,6 +248,25 @@
 
     <!-- Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+        // Function to toggle sidebar
+        function toggleSidebar() {
+          const sidebar = document.querySelector('.sidebar');
+          const sidebarToggle = document.querySelector('.sidebar-toggle');
+      
+          sidebar.classList.toggle('collapsed');
+          sidebarToggle.classList.toggle('collapsed');
+        }
+      
+        // Add event listener to sidebar toggle button
+        const sidebarToggle = document.querySelector('.sidebar-toggle');
+        sidebarToggle.addEventListener('click', toggleSidebar);
+      
+        // Add event listener to close sidebar button
+        const closeSidebar = document.querySelector('.close-sidebar');
+        closeSidebar.addEventListener('click', toggleSidebar);
+      </script>
 </body>
 
 </html>
