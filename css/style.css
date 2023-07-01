@@ -856,7 +856,7 @@ h6,
     }
 
     .btn-trash:hover {
-        background: linear-gradient(to left, #00e5ff, #1200ff);
+        background: linear-gradient(to right, #00e5ff, #1200ff);
         color: white;
         border: 1px solid #1200ff;
     }
@@ -911,5 +911,19 @@ h6,
     .card-gradient-border {
         border: 1px solid;
         border-image: linear-gradient(to right, #ff0a6c, #2d27ff) 1;
+    }
+
+    .btn-gradient-primary {
+        background: linear-gradient(to right, #00e5ff, #1200ff);
+    color: white;
+    border-radius: 30px;
+    border: 1px solid #00e5ff;
+    }
+
+    .btn-gradient-primary:hover {
+        background: linear-gradient(to left, #00e5ff, #1200ff);
+    color: white;
+    border-radius: 30px;
+    border: 1px solid #00e5ff;
     }
 /* order section end */
