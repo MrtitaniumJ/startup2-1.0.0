@@ -841,3 +841,75 @@ h6,
         margin-bottom: -75px;
     }
 }
+
+
+/* order section start */
+.gradient-custom {
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/carousel-bg.png) center center no-repeat;
+    background-size: cover;
+}
+
+    .btn-trash {
+        background: linear-gradient(to right, #00e5ff, #1200ff);
+        color: white;
+        border: 1px solid #1200ff;
+    }
+
+    .btn-trash:hover {
+        background: linear-gradient(to left, #00e5ff, #1200ff);
+        color: white;
+        border: 1px solid #1200ff;
+    }
+
+    .btn-like {
+        background: linear-gradient(to right, #1200ff, #ff0a6c);
+        color: white;
+        border: 1px solid #ff0a6c;
+    }
+
+    .btn-like:hover {
+        background: linear-gradient(to right, #1200ff, #ff0a6c);
+        color: white;
+        border: 1px solid #ff0a6c;
+    }
+
+    .btn-quantity {
+        background-color: white;
+        background: linear-gradient(to right, #ff0a6c, #2d27ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border: 1px solid;
+        border-image: linear-gradient(to right, #ff0a6c, #2d27ff) 1;
+        height: 50px;
+    }
+
+    .quantity-section .quantity-area{
+        background-color: white;
+    }
+
+    .quantity-bg {
+        margin-top: 28px;
+        box-sizing: border-box;
+    }
+
+    .quantity-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .j-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-header-bg {
+        background: #EEF9FF;
+    }
+
+    .card-gradient-border {
+        border: 1px solid;
+        border-image: linear-gradient(to right, #ff0a6c, #2d27ff) 1;
+    }
+/* order section end */
