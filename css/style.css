@@ -667,13 +667,13 @@ h6,
     background: linear-gradient(to right, #ff0a6c, #2d27ff);
 }
 
-.blog-card .redirecting-link {
+.redirecting-link {
     background: linear-gradient(to right, #00e5ff, #1200ff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 }
 
-.blog-card .redirecting-link:hover {
+.redirecting-link:hover {
     background: linear-gradient(to left, #ff0a6c, #2d27ff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -686,6 +686,18 @@ h6,
 
 .blog-box-content h4 {
     font-size: 1.3rem;
+}
+
+.tag-bg {
+    background: linear-gradient(to right, #00e5ff, #1200ff);
+    border-radius: 10px;
+    color: white;
+}
+
+.tag-bg:hover {
+    background: linear-gradient(to left, #ff0a6c, #1200ff);
+    border-radius: 10px;
+    color: white;
 }
 /* Blog End */
 
