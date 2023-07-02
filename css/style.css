@@ -678,6 +678,15 @@ h6,
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 }
+
+.blog-box-content {
+    /* background: linear-gradient(rgba(9, 30, 62, 0.863), rgba(9, 30, 62, 0.856)) center center no-repeat; */
+    background-color: white;
+}
+
+.blog-box-content h4 {
+    font-size: 1.3rem;
+}
 /* Blog End */
 
 /* footer start */
@@ -960,6 +969,11 @@ h6,
     color: white;
     border-radius: 30px;
     border: 1px solid #00e5ff;
+    }
+
+    .combined-section {
+        position: block;
+        margin-top: 50px;
     }
 
     
