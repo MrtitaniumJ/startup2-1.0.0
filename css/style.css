@@ -733,28 +733,28 @@ h6,
 
 /* join our team form */
 /* Modal styles */
-.modal-header {
+.modle-header {
     background: linear-gradient(#00e5ff, #1200ff);
     color: white;
   }
-  
-  .modal-title {
+
+  .modle-title {
     color: white;
   }
   
-  .modal-body {
+  .modle-bg {
     padding: 20px;
     background-color: #EEF9FF;
   }
 
-  .modal-body h4 {
+  .modle-bg h4 {
     background: linear-gradient(to right, #00e5ff, #1200ff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 2rem;
   }
   
-  .modal-footer {
+  .modle-footer {
     border-top: none;
   }
   
