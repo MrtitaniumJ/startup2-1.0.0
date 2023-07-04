@@ -1,5 +1,12 @@
 /* is this working? */
 
+@media (max-width: 900px) {
+    .ui_box {
+        width: 400px !important;
+        /* height: 220px; */
+        float: none !important;
+    }
+}
 
 legend{
     font-size: 15px;
