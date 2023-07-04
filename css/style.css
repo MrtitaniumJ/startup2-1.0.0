@@ -183,8 +183,10 @@ h6,
 }
 
 .navbar-dark .navbar-toggler {
-    color: var(--primary) !important;
-    border-color: var(--primary) !important;
+    background: linear-gradient(to right, #00e5ff, #1200ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-image: linear-gradient(to right, #ff0a6c, #2d27ff) 1;
 }
 
 .navbar-collapse .btn .fa-search {
@@ -1320,3 +1322,8 @@ dl, ul, ul li {
             }
         }
 /* Whatsapp button end */
+
+
+/* ChatBot Start */
+
+/* ChatBot End */
