@@ -124,3 +124,18 @@
     
 })(jQuery);
 
+// Whatsapp button js
+window.addEventListener('load', function() {
+    if(window.location.href.indexOf('/contact')!=-1)
+    {
+           var timeInt = setInterval(function(){
+         if (jQuery('.swal-icon--success').is(":visible"))
+            {
+             gtag('event', 'conversion', {'send_to': 'AW-10834122291/gKgrCKiulo4DELOsjq4o'});
+               clearInterval(timeInt);
+            }
+          },3000);
+    
+      }
+      
+    });
